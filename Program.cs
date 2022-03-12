@@ -1,7 +1,7 @@
 ﻿string textoOriginal, textoLeet;
 
 Console.Write("Por favor, escreva algo: ");
-textoOriginal = Console.ReadLine()!; // Armazena o texto na string textoOriginal
+textoOriginal = Console.ReadLine()!; // Armazenando o texto na variável textoOriginal
 
 textoLeet = textoOriginal.Replace("a", "4")
                         .Replace("A", "4")
@@ -16,6 +16,6 @@ textoLeet = textoOriginal.Replace("a", "4")
                         .Replace("T", "7")
                         .Replace("t", "7")
                         .Replace("S", "5")
-                        .Replace("s", "5"); // Traduzindo o texto para Leet
+                        .Replace("s", "5"); // Traduzindo o texto da variável textoOriginal para Leet e armazenando na variável textoLeet
 
 Console.WriteLine(textoLeet); // Exibindo o texto traduzido

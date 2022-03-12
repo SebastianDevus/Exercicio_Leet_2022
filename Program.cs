@@ -16,6 +16,6 @@ textoLeet = textoOriginal.Replace("a", "4")
                         .Replace("T", "7")
                         .Replace("t", "7")
                         .Replace("S", "5")
-                        .Replace("s", "5"); 
+                        .Replace("s", "5"); // Traduzindo o texto para Leet
 
-Console.WriteLine(textoLeet);
+Console.WriteLine(textoLeet); // Exibindo o texto traduzido
